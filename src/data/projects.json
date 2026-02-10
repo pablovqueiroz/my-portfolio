@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Right On Time (Frontend)",
+    "description": "Frontend application for the ROT platform, focused on a clean UI and efficient user experience.",
+    "techs": ["React", "JavaScript", "CSS"],
+    "githubUrl": "https://github.com/pablovqueiroz/rot-frontend",
+    "liveUrl": "https://rot-right-on-time.vercel.app/",
+    "logo": "logo-rot.png",
+    "demoVideo": "https://www.youtube.com/watch?v=41UyAICO_i0"
+  },
+  {
+    "title": "Right On Time (Backend)",
+    "description": "Backend API responsible for business logic, authentication, and data management for the ROT platform.",
+    "techs": ["Node.js", "Express.js", "MongoDB", "JWT authentication"],
+    "githubUrl": "https://github.com/pablovqueiroz/rot-backend",
+    "liveUrl": "https://rot-right-on-time.vercel.app/",
+    "logo": "logo-rot.png",
+    "demoVideo": "https://www.youtube.com/watch?v=41UyAICO_i0"
+  },
+  {
+    "title": "Harry Potter React App",
+    "description": "React application consuming a public API to explore the Harry Potter universe.",
+    "techs": ["React", "API"],
+    "githubUrl": "https://github.com/pablovqueiroz/harry-potter-react-app",
+    "liveUrl": "https://harry-potter-react-app.netlify.app/",
+    "logo": "harrypotter-logo.png",
+    "demoVideo": "https://www.youtube.com/watch?v=W6v8u1SrSuw"
+  },
+  {
+    "title": "DC Memory Game",
+    "description": "Memory card game inspired by DC characters, focusing on game logic.",
+    "techs": ["JavaScript", "DOM Manipulation", "CSS", "Game Logic"],
+    "githubUrl": "https://github.com/pablovqueiroz/dc-memory-game",
+    "liveUrl": "https://pablovqueiroz.github.io/dc-memory-game/",
+    "logo": "dclogo.png",
+    "demoVideo": "https://www.youtube.com/watch?v=7_I1oCCpm5M"
+  },
+  {
+    "title": "Recipe Book App",
+    "description": "Recipe browsing and management app with a clean user interface.",
+    "techs": ["React", "UX/UI"],
+    "githubUrl": "https://github.com/pablovqueiroz/recipe-book-app",
+    "liveUrl": "https://im-hungry-app.netlify.app/",
+    "logo": "logo-im-hungry.png",
+    "demoVideo": "https://www.youtube.com/watch?v=J6NCrfjeXGQ"
+  }
+]

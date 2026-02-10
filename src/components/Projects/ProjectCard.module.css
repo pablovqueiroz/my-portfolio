@@ -1,0 +1,107 @@
+.card {
+  flex: 0 0 100%;
+  height: 320px;
+  max-width: 100%;
+  display: flex;
+  gap: 2rem;
+  /* background: var(--bg-surface); */
+  color: var(--text-main);
+  /* border: var(--line-weight) solid var(--line-color); */
+  scroll-snap-align: start;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/*  MEDIA  */
+
+.media {
+  position: relative;
+  width: 50%;
+}
+
+.media iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+/*  CONTENT  */
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+/*  TEXT  */
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-wrap: wrap;
+}
+
+.description {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+/*  TECH TAGS  */
+
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.techs li {
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+}
+
+/*  LINKS  */
+
+.links {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.link {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: var(--accent);
+}
+
+.primaryLink {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+}

@@ -1,0 +1,30 @@
+.hire {
+  padding: 96px 24px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input,
+textarea {
+  padding: 14px;
+  font-size: 1rem;
+  background: var(--bg-surface);
+  color: var(--text-main);
+  border: var(--line-weight) solid var(--line-color);
+}
+
+button {
+  margin-top: 16px;
+  padding: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--accent);
+  color: #000;
+  border: none;
+}

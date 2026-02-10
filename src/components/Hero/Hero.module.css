@@ -1,0 +1,79 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 48px;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+.description {
+  margin-top: 16px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.imageWrapper {
+  flex-shrink: 0;
+}
+
+.image {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.socials {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.socialLink:hover {
+  opacity: 1;
+}
+
+.icon {
+  font-size: 1.4rem;
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+}
