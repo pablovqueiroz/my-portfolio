@@ -5,7 +5,7 @@ export type Project = {
   githubUrl: string;
   liveUrl?: string;
   logo: string;
-  demo: string;
+  demoVideo?: string;
 };
 
 

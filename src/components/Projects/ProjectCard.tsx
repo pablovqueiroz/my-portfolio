@@ -12,6 +12,7 @@ export function ProjectCard({
     liveUrl
 }: ProjectCardProps) {
     const getYoutubeEmbedUrl = (url?: string) => {
+        if (!url) return "";
         const videoIdMatch = url.match(
             /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&]+)/
         );

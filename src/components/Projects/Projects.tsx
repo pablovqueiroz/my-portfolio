@@ -54,7 +54,7 @@ export function Projects() {
                             key={project.title}
                             {...project}
                             logo={`/logos/${project.logo}`}
-                            demo={`/gifs/${project.demo}`}
+                            demoVideo={`/gifs/${project.demoVideo}`}
                         />
                     ))}
                 </div>
