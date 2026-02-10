@@ -8,7 +8,7 @@ function Header() {
         <ul className={styles.navList}>
           <NavItem to="/" label="Home" />
           <NavItem to="/projects" label="Projects" />
-          <NavItem to="/hire-me" label="Contact me" />
+          <NavItem to="/contact-me" label="Contact me" />
         </ul>
       </nav>
     </header>

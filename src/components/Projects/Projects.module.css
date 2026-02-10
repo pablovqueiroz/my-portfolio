@@ -1,9 +1,10 @@
 body{
     min-height: 80vh;
 }
+
 .projects {
-  padding: 60px 24px;
-  max-width: 80%;
+  padding: 60px 16px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -21,6 +22,7 @@ body{
   padding-bottom: 16px;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
+  padding-right: 40px;
 }
 
 .carousel::-webkit-scrollbar {
@@ -65,4 +67,10 @@ body{
   position: absolute;
   right: -22px;
   z-index: 2;
+}
+
+@media (max-width: 480px) {
+  .arrow {
+    display: none;
+  }
 }

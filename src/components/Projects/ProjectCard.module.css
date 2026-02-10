@@ -1,12 +1,9 @@
 .card {
   flex: 0 0 100%;
-  height: 320px;
   max-width: 100%;
   display: flex;
   gap: 2rem;
-  /* background: var(--bg-surface); */
   color: var(--text-main);
-  /* border: var(--line-weight) solid var(--line-color); */
   scroll-snap-align: start;
   transition:
     transform 0.3s ease,
@@ -18,6 +15,7 @@
 .media {
   position: relative;
   width: 50%;
+  aspect-ratio: 16 / 9;
 }
 
 .media iframe {
@@ -104,4 +102,32 @@
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+  }
+
+  .media {
+    width: 100%;
+  }
+
+  .logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
 }

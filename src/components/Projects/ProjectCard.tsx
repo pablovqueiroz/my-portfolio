@@ -24,7 +24,7 @@ export function ProjectCard({
 
     const youtubeEmbedUrl = getYoutubeEmbedUrl(demoVideo);
     if (!youtubeEmbedUrl) {
-        return null; // ou um placeholder simples
+        return null;
     }
     return (
         <article className={styles.card}>
