@@ -1,3 +1,4 @@
+import { CVSection } from "../Curriculum/CVSection";
 import styles from "./Hero.module.css";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
@@ -46,6 +47,7 @@ function Hero() {
             <span>LinkedIn</span>
           </a>
         </section>
+        <CVSection />
       </div>
     </section>
   );
