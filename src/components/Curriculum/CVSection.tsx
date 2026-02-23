@@ -9,11 +9,11 @@ type CV = {
 }
 
 const cvs: CV[] = [
-    {
-      label: "English",
-      file: "/pablo_queiroz_cv_en.pdf",
-      language: "en",
-    },
+  {
+    label: "English",
+    file: "/pablo_queiroz_cv_en.pdf",
+    language: "en",
+  },
   {
     label: "Português",
     file: "/pablo_queiroz_cv_pt.pdf",

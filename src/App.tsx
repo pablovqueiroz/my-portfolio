@@ -5,6 +5,7 @@ import "../src/styles/global.css"
 import Footer from "./components/Footer/Footer"
 import ProjectsPage from "./pages/Projects/ProjectsPage"
 import Contact from "./pages/Contact/Contact"
+import InProgress from "./pages/InProgress/InProgress"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="in-progress" element={<InProgress/>}/>
         <Route path="contact-me" element={<Contact/>}/>
       </Routes>
       <Footer />

@@ -17,12 +17,13 @@
 .navList {
   display: flex;
   align-items: center;
-  gap: 32px;
+  justify-content: center;
 }
+
 
 
 @media (max-width: 768px) {
 .header {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 }
